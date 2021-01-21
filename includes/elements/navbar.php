@@ -2,7 +2,7 @@
       <div class="position-sticky pt-3">
         <ul class="nav flex-column">
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="./includes/pages/dashboard.php">
+            <a class="nav-link" aria-current="page" href="index.php?p">
             <i data-feather="pie-chart" width="24" height="24"></i>
               Dashboard
             </a>
