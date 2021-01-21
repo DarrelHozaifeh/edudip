@@ -2,19 +2,19 @@
       <div class="position-sticky pt-3">
         <ul class="nav flex-column">
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="index.php?p">
+            <a class="nav-link" aria-current="page" href="index.php?p=dashboard">
             <i data-feather="pie-chart" width="24" height="24"></i>
               Dashboard
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./includes/pages/webinar-erstellen.php">
+            <a class="nav-link" href="index.php?p=/webinar-erstellen">
             <i data-feather="video" width="24" height="24"></i>
               Webinar erstellen
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./includes/pages/aufzeichnungen.php">
+            <a class="nav-link" href="index.php?p=aufzeichnungen">
             <i data-feather="hard-drive" width="24" height="24"></i>
               Aufzeichnungen
             </a>
@@ -29,13 +29,13 @@
         </h6>
         <ul class="nav flex-column mb-2">
           <li class="nav-item">
-            <a class="nav-link" href="./includes/pages/registrieren.php">
+            <a class="nav-link" href="index.php?p=teilnehmer">
             <i data-feather="users" width="24" height="24"></i>
               An- & Abmeldung
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./includes/pages/moderatoren.php">
+            <a class="nav-link" href="index.php?p=moderatoren">
             <i data-feather="shield" width="24" height="24"></i>
               Moderatoren
             </a>

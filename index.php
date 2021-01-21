@@ -33,7 +33,6 @@
             }
             }
         } else {
-        if($_GET['p'] == "registrieren" OR $_GET['p'] == "login" OR $_GET['p'] == ""){
             if($_GET[p] != "") {$seite = $_GET[p];} else {$seite = $settings[gaststartseite];}
             if(!file_exists("includes/pages/$seite.php")){
             include("includes/pages/404.php");
@@ -42,7 +41,6 @@
             include('includes/elements/header.php');
             include('includes/elements/navbar.php');
             include("includes/pages/$seite.php");
-            }
             }
             }
             //include('includes/elements/footer.php');

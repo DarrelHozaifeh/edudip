@@ -2,7 +2,7 @@
 //Allgemeine Einstellungen an der Seite
 error_reporting(0);     //Fehlermeldungen anzeigen  |0=aus 1=an
 session_start();    //Session für Logins starten
-$settings[title] = "";    //Seitentitel
+$settings[title] = "TimeLine® ERP - Webinarverwaltung";    //Seitentitel
 $settings[description] = "";      //Seitenbeschreibung
 $settings[keywords] = "";     //Seitentags (Mit Leerzeichen trennen)
 $settings[charset] = "UTF-8";      //Landescode | de=Deutsch  en=Englisch
@@ -23,6 +23,6 @@ $settings[gaststartseite] = "dashboard";    //Startseite für unangemeldete Nutz
 
 
 //Includes und andere Scripts
-include('includes/elements/modals.php');    //Einbinden der Modals
-include('includes/elements/functions.php');    //Einbinden der Functions
+// include('includes/elements/modals.php');    //Einbinden der Modals
+// include('includes/elements/functions.php');    //Einbinden der Functions
 ?>
