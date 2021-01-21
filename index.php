@@ -14,8 +14,8 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="<?php echo $settings[toolkitcolor]; ?>">
     <link rel="icon" type="image/png" href="images/favicon.png" sizes="<?php echo $settings[faviconsize]; ?>">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
-    <link rel="stylesheet" href="./css/footer.css">
-    <link rel="stylesheet" href="https://dashkit.goodthemes.co/assets/css/theme.min.css">
+    <link rel="stylesheet" href="./css/dashboard.css">
+    <script src="https://unpkg.com/feather-icons"></script>
   </head>
   <body>
     <?php
@@ -39,13 +39,15 @@
             include("includes/pages/404.php");
             }
             else{
+            include('includes/elements/header.php');
+            include('includes/elements/navbar.php');
             include("includes/pages/$seite.php");
             }
             }
             }
             //include('includes/elements/footer.php');
-            include('includes/elements/navbar.php');
       ?>
       <script src="./js/bootstrap.bundle.min.js"></script>
+      <script>feather.replace()</script>
   </body>
 </html>

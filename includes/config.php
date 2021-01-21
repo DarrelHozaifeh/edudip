@@ -10,7 +10,7 @@ $settings[langshort] = "de";      //Landescode | de=Deutsch  en=Englisch
 $settings[faviconsize] = "512x512";      //Größe des Favicons
 $settings[toolkitcolor] = "#0090ea";    //Farbe der Toolkits  |Mobile Chrome-Titelleiste
 $settings[userstartseite] = "home";    //Startseite für angemeldete Nutzer
-$settings[gaststartseite] = "login";    //Startseite für unangemeldete Nutzer
+$settings[gaststartseite] = "dashboard";    //Startseite für unangemeldete Nutzer
 
 
 //Aufbauen einer Datenbankverbindung
